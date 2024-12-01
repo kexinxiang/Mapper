@@ -15,7 +15,7 @@ This is a Google Maps-like software implemented from scratch using C++ for the b
 ## Contributors  
 
 - **Alissa Xiang**  (Me!)
-  - Github:[kexinxiang](https://github.com/kexinxiang)
+  - Github: [kexinxiang](https://github.com/kexinxiang)
   - LinkedIn: [Kexin Xiang](https://www.linkedin.com/in/alissa-xiang/)
   - Email: kexinxiangx@outlook.com 
 
@@ -32,6 +32,7 @@ This is a Google Maps-like software implemented from scratch using C++ for the b
 ## Key UI Features  
 
 - **Drop-Down Menu for City Selection**
+
 This feature allows users to switch between maps of different cities, by clicking on the widget at the top right corner of the window. The popup menu is alphabetically ordered, making it easier for users to navigate.
 
 <img width="723" alt="Drop-down menu" src="https://github.com/user-attachments/assets/4688c71b-2538-4e39-aae6-b56a16c21ef8"><br>
@@ -84,35 +85,26 @@ Our solution integrates:
 The project was divided into four milestones over four months:  
 
 ### Milestone 1: Data Organization and API Extension  
-- Organized large amounts of data into structured formats.  
+- Organized large amounts of geospatial data into structured formats.  
 - Extended an existing API by implementing functions to support future milestones.  
 
 ### Milestone 2: Map Drawing with EZGL  
 - Utilized the EZGL graphics library, a wrapper around GTK3 and Cairo.  
-- Focused on drawing maps using functions implemented in Milestone 1.  
+- Focused on rendering maps using functions implemented in Milestone 1.
+- Adding UI features:
+  -  displaying bike routes
+  -  dark modes
+  -  Auto-complete search bar
+  -  Buttons that selectively display different types of points of interest
 
 ### Milestone 3: Pathfinding and Directions  
 - Implemented pathfinding between two intersections.  
-- Designed and created directions accompanying the path found.  
+- Designed pop-up widget for intuitive display of directions when path found.  
 
 ### Milestone 4: Multi-Stop Pathfinding  
+- Solving a modified version of the Travelling Salesman problem
 - Optimized paths for multiple deliveries and drop-offs.  
 - Ensured correct sequencing for pickups and drop-offs, starting and ending at a depot.  
-
----
-
-## Challenges Faced  
-
-- **Map Display Issues**  
-  - *Problem*: Map disrupted by lines connecting different cities.  
-  - *Reason*: Used `vector.resize()` with `vector.push_back()`.  
-
-- **GTK Search Bar**  
-  - *Solution*: Implemented a global flag.  
-
-- **GTK Pop-Up Window Slide Bar**  
-  - *Problem*: A small portion of the pop-up window blocks mouse clicks.  
-  - *Result*: Unsolved.  
 
 ---
 
@@ -128,18 +120,9 @@ The project was divided into four milestones over four months:
 
 ## What I Would Do Differently  
 
-- Adopt object-oriented programming (OOP) principles.  
 - Reduce reliance on global variables.  
 - Cache the map by splitting it into multiple sections.  
 - Unit test every function.  
-
----
-
-## Refinements for the Existing Code  
-
-- Implement better error handling.  
-- Optimize algorithms further.  
-- Improve UI responsiveness and accessibility.  
 
 ---
 
