@@ -25,7 +25,7 @@ This is a Google Maps-like software implemented from scratch using C++ for the b
   - Email: jwilliam.wen@mail.utoronto.com   
 
 - **Holly Han**  
-  - Contact Info:  
+  - Contact Info:  /
 
 ---
 
@@ -34,8 +34,7 @@ This is a Google Maps-like software implemented from scratch using C++ for the b
 - **Drop-Down Menu for City Selection**
 This feature allows users to switch between maps of different cities, by clicking on the widget at the top right corner of the window. The popup menu is alphabetically ordered, making it easier for users to navigate.
 
-<img width="723" alt="Drop-down menu" src="https://github.com/user-attachments/assets/4688c71b-2538-4e39-aae6-b56a16c21ef8">
-
+<img width="723" alt="Drop-down menu" src="https://github.com/user-attachments/assets/4688c71b-2538-4e39-aae6-b56a16c21ef8"><br>
 
 - **Intelligent Search Bar with Auto-Completion**
 
@@ -50,7 +49,11 @@ Our software offers a user-friendly and efficient navigation experience. Users c
   - ETA Information
   - Step-by-step Directions (with a scrollable list)
 
-Each step can be visualized by clicking on the corresponding instruction, which highlights the related street on the map. Check out the demo to see it in action!
+<img width="723" alt="Screenshot 2024-12-01 at 5 25 44 PM" src="https://github.com/user-attachments/assets/2553e0f3-dad8-4dde-96e7-6eca8a52624d">
+
+Each step can be visualized by clicking on the corresponding instruction, which highlights the related street on the map. <br>
+
+Check out the demo to see it in action!
 
 [![Navigation Mode demo](https://img.youtube.com/vi/lNFllYfDpVw/0.jpg)](https://www.youtube.com/watch?v=lNFllYfDpVw)
 
