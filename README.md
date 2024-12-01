@@ -64,7 +64,10 @@ Check out the demo to see it in action!
 ### Fastest Path Between Two Intersections  
 We integrated the **A\* Algorithm** on top of the **Dijkstra Algorithm** and achieved a **3x speed improvement** without sacrificing accuracy by applying well-thought-out heuristics.  
 
-![A*](a*.gif) 
+| Dijkstra Algorithm | A\* Algorithm |
+|-------|-------|
+| ![dijkstra](https://github.com/user-attachments/assets/b233ae14-9da7-4a29-99e0-c3f4442798ca) |![E9DC4EC4](https://github.com/user-attachments/assets/3780c57a-cbc1-4fd0-bc54-71f72c1a2a01)|
+
 
 
 ### Variation of the Traveling Salesman Problem (TSP)  
