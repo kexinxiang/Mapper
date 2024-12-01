@@ -8,7 +8,7 @@ Source Code Available Upon Demand
 
 This is a Google Maps-like software implemented from scratch using C++ for the backend and GTK3 for the frontend framework. Geographical data is sourced from OpenStreetMap.  
 
-<img width="1089" alt="Screenshot 2024-12-01 at 4 52 26 PM" src="https://github.com/user-attachments/assets/9f108c2d-45a0-4b7e-a9a7-d41d0a3bf9ed">
+<img width="1089" alt="mapper general" src="https://github.com/user-attachments/assets/9f108c2d-45a0-4b7e-a9a7-d41d0a3bf9ed">
 
 ---
 
@@ -39,6 +39,9 @@ This feature allows users to switch between maps of different cities, by clickin
 
 - **Intelligent Search Bar with Auto-Completion**
 
+Check out this demo for the intelligent search bar that works with user entering partial street names and always provides a single match.
+
+[![Navigation Mode demo](https://img.youtube.com/vi/PAsO23HIM-E/0.jpg)](https://www.youtube.com/watch?v=PAsO23HIM-E)
 
 - **Interactive Navigation Mode**
 
